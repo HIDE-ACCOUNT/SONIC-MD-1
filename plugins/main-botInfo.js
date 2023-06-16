@@ -41,16 +41,16 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let neww = performance.now()
   let speed = neww - old
   let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-if (!(who in global.db.data.users)) throw `💰 The user is not found in 💝 Queen Hentai 💝 database`
+if (!(who in global.db.data.users)) throw `💰 The user is not found in 💝 SONIC MD 💝 database`
 let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/avatar_contact.png')
 let user = global.db.data.users[who]
   
 let infobt = `
-*🇱🇰 :*  Queen Hentai  𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃 ɴᴏᴡ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ COOLIFY
+*🇱🇰 :* SONIC-MD BOT NOW ON AVIALBE ON HEROKU
 
  ᴅᴇᴩʟᴏY ɴᴏᴡ.
 
-This wa bot created by 💝 Dinuwa Official²⁰²³ 💝
+This wa bot created by 💝 KALINDU 💝
 
 🩸You can deploy your bot   in following platforms.
 
@@ -70,41 +70,34 @@ This wa bot created by 💝 Dinuwa Official²⁰²³ 💝
 
 SPECIAL THANKS T0:
 
-- 💖 | **Dinuwa Official²⁰²³(me)**
+- 💖 | **KALINDU (OWNER)**
 
     
 
-- 💖 | **Abhishek** 
+- 💖 | **DINUWA (FOR BOT BASE)** 
 
     
-
-- 💖 | **MR Nima** 
-
-- 💖 | **DINETHRA**
 
 *🩸OWNER🩸*
 
-  *Dinuwa Official²⁰²³*
+  *KALINDU*
 
-❄️ Instagram :
+❄️ Github :
 
-  • https://instagram.com/Dinuwa Official²⁰²³
+  • https://github.com/KALINDU-LK
 
-❄️ GitHub :
-
-  • https://github.com/dinuwah/QUEEN-HENTAI
 
 ❄️ Support  : 
 
-  • https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
+  • https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5
 
   
 
 💝 Contact : 
 
-  • wa.me:94740804536
+  • wa.me:94758179948
 
-*💝 Queen Hentai 💝*
+*💝 SONIC-MD 💝*
 
         *S E R V E R*
 
