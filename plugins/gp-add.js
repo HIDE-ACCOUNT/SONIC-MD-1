@@ -40,7 +40,7 @@ let handler = async (m, { conn, text, participants }) => {
         const content = getBinaryNodeChild(user, 'add_request')
         const invite_code = content.attrs.code
         const invite_code_exp = content.attrs.expiration
-        let teks = `🔊 Utto @${jid.split('@')[0]} You can add only your ccontacts from 💝 Queen Hentai 💝:'v `
+        let teks = `🔊 Utto @${jid.split('@')[0]} You can add only your ccontacts from 💝 SONIC-MD 💝:'v `
         m.reply(teks, null, {
             mentions: conn.parseMention(teks)
         })
