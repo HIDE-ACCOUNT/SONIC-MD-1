@@ -3,9 +3,9 @@ import fetch from 'node-fetch'
 import instagramGetUrl from 'instagram-url-direct'
 import { instagramdl, instagramdlv2, instagramdlv3, instagramdlv4 } from '@bochilteam/scraper'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
-if (!args[0]) throw `*💝 Queen Hentai 💝 command for downloading instagram video, 𝙴xample: ${usedPrefix + command}* https://www.instagram.com/reel/Cc0NuYBg8CR/?utm_source=ig_web_copy_link` 
+if (!args[0]) throw `*💝 SONIC-MD 💝 command for downloading instagram video, 𝙴xample: ${usedPrefix + command}* https://www.instagram.com/reel/Cc0NuYBg8CR/?utm_source=ig_web_copy_link` 
 try {
-await m.reply(`*💝 Queen Hentai 💝 ᴅownloading your ᴠɪᴅᴇᴏ...*`)
+await m.reply(`*💝 SONIC-MD 💝 ᴅownloading your ᴠɪᴅᴇᴏ...*`)
 switch (command) {        
 case "instagramdl": case "instagram": case "igdl": case "ig": 
 let human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`)
@@ -28,7 +28,7 @@ let txt3 = `💝 *Url:* ${shortUrl3}`.trim()
 for (const { url } of resultssss) await conn.sendFile(m.chat, url, 'error.mp4', txt4, m)
 break       
 }} catch {
-await await m.reply(`*💝 Queen Hentai 💝 𝙴𝚁𝚁𝙾R (${usedPrefix}ig, ${usedPrefix}ig2, ${usedPrefix}ig3)*`)
+await await m.reply(`*💝 SONIC-MD 💝 𝙴𝚁𝚁𝙾R (${usedPrefix}ig, ${usedPrefix}ig2, ${usedPrefix}ig3)*`)
 }}
 handler.command = /^(instagramdl|instagram|igdl|ig|instagramdl2|instagram2|igdl2|ig2|instagramdl3|instagram3|igdl3|ig3)$/i
 export default handler
