@@ -3,14 +3,14 @@ import fg from 'api-dylux'
 import { tiktokdl, tiktokdlv2, tiktokdlv3 } from '@bochilteam/scraper'
 
 let handler = async (m, { conn, text, args, usedPrefix, command}) => {
-if (!args[0]) throw `💝 Queen Hentai 💝, Enter a Tiktok link\n\n 💝 Ex: ${usedPrefix + command} https://vm.tiktok.com/ZSLjV2eoP/`
-if (!args[0].match(/tiktok/gi)) throw `💝 verify that the link is from tiktok 💝 Queen Hentai 💝`
+if (!args[0]) throw `💝 SONIC-MD 💝, Enter a Tiktok link\n\n 💝 Ex: ${usedPrefix + command} https://vm.tiktok.com/ZSLjV2eoP/`
+if (!args[0].match(/tiktok/gi)) throw `💝 verify that the link is from tiktok 💝 SONIC-MD 💝`
 m.react(rwait)
 
 try {
     let p = await fg.tiktok(args[0]) 
     let te = `
-┌─💝 Queen Hentai 💝 TIKTOK
+┌─💝 SONIC-MD 💝 TIKTOK
 💝 *Username:* ${p.unique_id}
 💝 *Description:* ${p.title}
 💝 *Duration:* ${p.duration}
@@ -24,7 +24,7 @@ try {
     const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd
     if (!url) throw '💝 Error downloading the video'
      conn.sendFile(m.chat, url, 'fb.mp4', `
-┌─*💝 Queen Hentai 💝 TIKTOK DL*
+┌─*💝 SONIC-MD 💝 TIKTOK DL*
 💝 *Username:* ${nickname} ${description ? `\n💝 *Description:* ${description}` : ''}
 └───────────`, m)
 m.react(done)
