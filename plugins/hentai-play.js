@@ -8,31 +8,31 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   let vid = search.videos[Math.floor(Math.random() * search.videos.length)]
   if (!search) throw 'Video Not Found, Try Another Title'
   let { title, thumbnail, timestamp, views, ago, url } = vid
-  let wm = '*💝 Queen Hentai 💝* WA BOT'
+  let wm = '*💝 SONIC-MD 💝* WA BOT'
 
-  let captvid = `╭────  💝 Queen Hentai 💝 YT ─⬣
+  let captvid = `╭────  💝 QSONIC-MD 💝 YT ─⬣
 💝 Title: ${title}
 💝 Duration: ${timestamp}
 💝 Views: ${views}
 💝 Upload: ${ago}
 💝 Link: ${url}
 ╰────────⬣`
-  conn.sendButton(m.chat, `╭──── 💝 Queen Hentai 💝 YT ─⬣
+  conn.sendButton(m.chat, `╭──── 💝 SONIC-MD 💝 YT ─⬣
 💝 Title: ${title}
 💝 Duration: ${timestamp}
 💝 Views: ${views}
 💝 Upload: ${ago}
 💝 Link: ${url}
-╰────────⬣`, author.trim(), await( await conn.getFile(thumbnail)).data, ['💝 VIDEO 💝', `${usedPrefix}ytmp4 ${url}`], false, { quoted: m, 'document': { 'url':'💝 Queen Hentai 💝' },
+╰────────⬣`, author.trim(), await( await conn.getFile(thumbnail)).data, ['💝 VIDEO 💝', `${usedPrefix}ytmp4 ${url}`], false, { quoted: m, 'document': { 'url':'💝 SONIC-MD 💝' },
 'mimetype': global.dpdf,
-'fileName': `💝 Queen Hentai 💝 ℙ𝕃𝔸𝕐𝔼ℝ`,
+'fileName': `💝 SONIC-MD 💝 ℙ𝕃𝔸𝕐𝔼ℝ`,
 'fileLength': 666666666666666,
 'pageCount': 666,contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaType:  2,
 mediaUrl: `${url}`,
-title: `Song Is Uploading by 💝 Queen Hentai 💝...`,
+title: `Song Is Uploading by 💝 SONIC-MD 💝...`,
 body: wm,
-sourceUrl: '💝 Queen Hentai 💝', thumbnail: await ( await conn.getFile(thumbnail)).data
+sourceUrl: '💝 SONIC-MD 💝', thumbnail: await ( await conn.getFile(thumbnail)).data
   }
  } 
 })
