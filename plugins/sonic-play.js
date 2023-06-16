@@ -10,7 +10,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   let { title, thumbnail, timestamp, views, ago, url } = vid
   let wm = '*💝 SONIC-MD 💝* WA BOT'
 
-  let captvid = `╭────  💝 QSONIC-MD 💝 YT ─⬣
+  let captvid = `╭────  💝 SONIC-MD 💝 YT ─⬣
 💝 Title: ${title}
 💝 Duration: ${timestamp}
 💝 Views: ${views}
