@@ -8,15 +8,14 @@ let handler = async (m, { conn }) => {
          exec(`neofetch --stdout`, (error, stdout, stderr) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
-          m.reply(`${ssd}QUEEN  HENTAI WA BOT
+          m.reply(`${ssd}SONIC-MD WA BOT
                  PING  
 
 pong : ${latensi.toFixed(4)} ms    
 
-Created By  Dinuwa
-                    Official²⁰²³
+Created By  KALINDU
 
-🔊  https://github.com/dinuwah/QUEEN-HENTAI`);
+🔊  https://github.com/KALINDU-LK/SONIC-MD`);
             });
 }
 handler.help = ['ping']
