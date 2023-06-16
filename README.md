@@ -25,7 +25,7 @@ SONIC-MD WHATSAPP BOT
 
 2. Scan The QR And Upload kalidu.data.json To Your Fork (Will Recieve It On Your Bot Number After Scanning)
     <br>
-<a href='https://replit.com/@REALKALIDU/SONIC-MD-2' target="_blank"><img alt='💝SCAN QR💝' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
+<a href='https://replit.com/@KaliduGaweshana/SONIC-MD' target="_blank"><img alt='💝SCAN QR💝' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
 
 ### a little about this bot
 - ✔️ | **Simple** 
@@ -46,7 +46,7 @@ SONIC-MD WHATSAPP BOT
 ## ```STEPS TO DEPLOY ON HEROKU```
 
 - 1. Fork this repo (Don't forget to give a star)
-- 2. ***Get [SESSION-ID](https://replit.com/@REALKALIDU/SONIC-MD-2) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+- 2. ***Get [SESSION-ID](https://replit.com/@KaliduGaweshana/SONIC-MD) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 - 3. Upload your session file.
 - 4. Simply click Deploy to heroku button above
   
