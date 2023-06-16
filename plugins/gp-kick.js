@@ -1,7 +1,7 @@
 
 let handler = async (m, { conn, participants, usedPrefix, command }) => {
 	
-let kickte = `*Please boza ,Use Correct Command of the 💝 Queen Hentai 💝 WA BOT\n*${usedPrefix + command}* @tag`
+let kickte = `*Please boza ,Use Correct Command of the 💝 SONIC-MD 💝 WA BOT\n*${usedPrefix + command}* @tag`
 
 if (!m.mentionedJid[0] && !m.quoted) return m.reply(kickte, m.chat, { mentions: conn.parseMention(kickte)}) 
 let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender
