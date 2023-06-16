@@ -4,14 +4,14 @@ import fg from 'api-dylux'
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 
  let chat = global.db.data.chats[m.chat]
-  if (!chat.nsfw) throw `💝 Queen Hentai 💝 this group doesnot support nsfw \n\nto turn on  \n*${usedPrefix}enable* nsfw`
+  if (!chat.nsfw) throw `💝 SONIC-MD 💝 this group doesnot support nsfw \n\nto turn on  \n*${usedPrefix}enable* nsfw`
   let user = global.db.data.users[m.sender].age
-  if (user < 17) throw `💝 Queen Hentai 💝 age must be 18 to use this feature , Therefore type .qhw`
-  if (!text) throw `💝 Queen Hentai 💝 what to search?\n🤤 Type : *${usedPrefix + command} <search>*\n\nExample:- Mia කලීපා 😂\nEx: .xnxx link *`
+  if (user < 17) throw `💝 SONIC-MD 💝 age must be 18 to use this feature , Therefore type .qhw`
+  if (!text) throw `💝 SONIC-MD 💝 what to search?\n🤤 Type : *${usedPrefix + command} <search>*\n\nExample:- Mia කලීපා 😂\nEx: .xnxx link *`
     
     m.react(rwait)
     if (text.includes('http://') || text.includes('https://')) {
-        if (!text.includes('xnxx.com')) return m.reply(`💝 Queen Hentai 💝 Invalid link  *xnxx.com*`)
+        if (!text.includes('xnxx.com')) return m.reply(`💝 SONIC-MD 💝 Invalid link  *xnxx.com*`)
         try {
             let xn = await (await fetch(global.API('fgmods', '/api/dowloader/xnxxdl', { url: text }, 'apikey'))).json()
             conn.sendFile(m.chat, xn.result.files.high, xn.result.title + '.mp4', `
@@ -29,7 +29,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 `.trim(), m, false, { asDocument: chat.useDocument })
  m.react(done)
  } catch (e) {
-    m.reply(`💝 Queen Hentai 💝 Error`)
+    m.reply(`💝 SONIC-MD 💝 Error`)
  }
     } else {
         try {
@@ -45,7 +45,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
               let ff = json.result.map((v, i) => `${i + 1}┃ *Title* : ${v.title}\n*Link:* ${v.link}\n`).join('\n') 
               if (json.status) m.reply(ff)
             } catch (e) {
-              m.reply(`💝 Queen Hentai 💝 Error`)
+              m.reply(`💝 SONIC-MD 💝 Error`)
                }
     }
 }
