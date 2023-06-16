@@ -46,7 +46,7 @@ SONIC-MD WHATSAPP BOT
 ## ```STEPS TO DEPLOY ON HEROKU```
 
 - 1. Fork this repo (Don't forget to give a star)
-- 2. ***Get [SESSION-ID](https://replit.com/@REALKALIDU/SONIC-MD-2)] by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+- 2. ***Get [SESSION-ID](https://replit.com/@REALKALIDU/SONIC-MD-2) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 - 3. Upload your session file.
 - 4. Simply click Deploy to heroku button above
   
