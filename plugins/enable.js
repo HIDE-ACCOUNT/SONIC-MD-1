@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 	
 const sections = [
    {
-	title: `💝 Queen Hentai 💝`,
+	title: `💝 SONIC-MD 💝`,
 	rows: [
 	{title: "🇱🇰 | Welcome", rowId: `${usedPrefix + command} welcome`},
 	{title: "🇱🇰 | Public", rowId: `${usedPrefix + command} public`},
@@ -25,9 +25,9 @@ const sections = [
 ]
 
 const listMessage = {
-  text: '\nThis is the list of 💝 Queen Hentai 💝 Now you can turn on and off it',
+  text: '\nThis is the list of 💝 SONIC-MD 💝 Now you can turn on and off it',
   footer: igfg,
-  title: `💝 Queen Hentai 💝`,
+  title: `💝 SONIC-MD 💝`,
   buttonText: "💝 Click here 💝",
   sections
 }
