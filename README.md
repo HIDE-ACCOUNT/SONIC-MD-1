@@ -23,7 +23,7 @@ SONIC-MD WHATSAPP BOT
     <br>
 <a href='https://github.com/KALINDU-LK/SONIC-MD' target="_blank"><img alt='💝Fork Repo💝' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
 
-2. Scan The QR And Upload kalidu.data.json To Your Fork (Will Recieve It On Your Bot Number After Scanning)
+2. Scan The QR And Upload sonic.data.json To Your Fork (Will Recieve It On Your Bot Number After Scanning)
     <br>
 <a href='https://replit.com/@KaliduGaweshana/SONIC-MD' target="_blank"><img alt='💝SCAN QR💝' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
 
