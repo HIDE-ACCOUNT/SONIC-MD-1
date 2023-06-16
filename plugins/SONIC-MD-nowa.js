@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     let regex = /x/g
-    if (!text) throw 'Give a number 💝 Queen Hentai 💝 to search'
-    if (!text.match(regex)) throw `*Example: ${usedPrefix + command} 94740804536*`
+    if (!text) throw 'Give a number 💝 SONIC-MD 💝 to search'
+    if (!text.match(regex)) throw `*Example: ${usedPrefix + command} 94758179948*`
     let random = text.match(regex).length, total = Math.pow(10, random), array = []
     for (let i = 0; i < total; i++) {
     let list = [...i.toString().padStart(random, '0')]
