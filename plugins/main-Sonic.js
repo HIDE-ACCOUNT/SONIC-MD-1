@@ -8,7 +8,7 @@ https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5
 https://github.com/KALINDU-LK/SONIC-MD
  
 🔊 *Contact*
-wa.me:94758179948
+wa.me/+94758179948
 
 🔊 *Github*
 https://github.com/KALINDU-LK
