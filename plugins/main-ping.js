@@ -9,7 +9,8 @@ let handler = async (m, { conn }) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
           m.reply(`${ssd}SONIC-MD WA BOT
-                 PING  
+                 PING 
+                 
 
 pong : ${latensi.toFixed(4)} ms    
 
