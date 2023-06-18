@@ -114,6 +114,6 @@ m.react(done)
 }
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['info', 'infobot', 'hentaiinfo']
+handler.command = ['info', 'infobot', 'sonicinfo']
 
 export default handler
