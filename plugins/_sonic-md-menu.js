@@ -283,8 +283,8 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 ┣ ඬ⃟ 👽 _${usedPrefix}wm *<packname> <author>*_
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 `.trim())
-handler.help = ['allmenu']
+handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['list', 'all menu'] 
+handler.command = ['list', 'menu'] 
 
 export default handler
