@@ -1,5 +1,5 @@
 { 
-    "name": "HENTAI-QUEEN",
+    "name": "SONIC-MD",
     "version": "0.0.1",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -25,16 +25,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/dinuwah/HENTAI-QUEEN",
+    "homepage": "https://github.com/KALINDU-LK/SONIC-MD",
     "author": {
-        "name": "Dinuwa Official²⁰²³"
+        "name": "Kalindu"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/dinuwah/HENTAI-QUEEN.git"
+        "url": "git+https://github.com/KALINDU-LK/SONIC-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/dinuwah/HENTAI-QUEEN/issues"
+        "url": "https://github.com/KALINDU-LK/SONIC-MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
