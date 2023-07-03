@@ -12,8 +12,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   if (!age) throw '💝 age cannot be empty'
   if (name.length >= 30) throw '💝 The name is too long' 
   age = parseInt(age)
-  if (age > 100) throw '💝 හම්මට නාකියා wants to play with 💝 SONIC-MD 💝 bot'
-  if (age < 5) throw '💝  there is a Carima podi eka '
+  if (age > 30) throw '💝 හම්මට නාකියා wants to play with 💝 SONIC-MD 💝 bot'
+  if (age < 15) throw '💝  there is a Carima podi eka '
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
